@@ -10,6 +10,10 @@ package fuelefficiency;
  *
  * @author aldic2547
  */
-public class Motorcycle {
+public class Motorcycle extends Vehicle{
+
+    public Motorcycle(double type) {
+        super(type);
+    }
     
 }
