@@ -11,7 +11,7 @@ package fuelefficiency;
  * @author aldic2547
  */
 public class Truck extends Vehicle{
-
+    //Sends the type to the super class
     public Truck(double type) {
         super(type);
     }
