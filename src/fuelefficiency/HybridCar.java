@@ -10,6 +10,10 @@ package fuelefficiency;
  *
  * @author aldic2547
  */
-public class HybridCar {
+public class HybridCar extends Vehicle{
+
+    public HybridCar(double type) {
+        super(type);
+    }
     
 }
